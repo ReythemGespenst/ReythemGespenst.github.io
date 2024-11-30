@@ -1,7 +1,82 @@
-#profile_id {
-    width: 30vw;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+#encapsulator {
+    width: 90vw;
+    border-style: double;
+    border-color: #A6AEBF;
+    border-width: 0.5vw;
+    height: 120vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 5vw;
+    border-radius: 0 10vw 0 10vw;
+    background-color: #FFF8DE;
+    box-shadow: 1vw 1vw 1vw rgb(100,100,100);
 }
 
+h1 {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    border-bottom: 3px solid #C5D3E8;
+    width: 40vw;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#header {
+    position: absolute;
+    border-style: double;
+    border-color: #A6AEBF;
+    border-width: 0.4vw;
+    border-radius: 3vw;
+    z-index: 2;
+    width: 20vw;
+    height: 4vw;
+    top: 2.5vw;
+    text-align: center;
+    background-color: #FFF8DE;
+    right: 12vw;
+}
+
+#details {
+    width: 80vw;
+    height: 90vw;
+    position: relative;
+    left: 50%;
+    top: 2vw;
+    transform: translate(-50%, 0%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 body {
-    background-color: black;
+    background-color: #FFF8DE;
+}
+
+p {
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto Slab', serif;
+}
+
+#ron_picture_id {
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: 0.5vw 0.5vw 1vw 1vw #A6AEBF;
+}
+
+#flexbox_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+#personal_details_flex {
+    border-left: 2px solid rgb(240, 240, 240);
+    height: 30vw;
+    width: 60%;
+    
 }
