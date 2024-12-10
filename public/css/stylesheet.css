@@ -5,7 +5,6 @@
     border-style: double;
     border-color: #A6AEBF;
     border-width: 0.5vw;
-    height: 90vw;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
@@ -122,4 +121,168 @@ li{
     width: 90%;
     border-top:  2px solid #A6AEBF;
     padding-left: 2vw;
+}
+
+#splitter {
+    border: 0.5vw solid #A6AEBF;
+    width: 80%;
+    margin-top: 1.5vw;
+    border-radius: 1vw;
+    margin-right: 100%;
+}
+
+#button-holder {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    position: relative;
+    top: -3vw;
+}
+
+.education-button {
+    border: 0.5vw double #A6AEBF;
+    background-color: #FFF8DE;
+    border-radius: 5vw;
+    width: 5vw;
+    height: 5vw;
+    font-family: 'Roboto Slab', serif;
+    transition-duration: 0.5s;
+}
+
+.education-button:hover {
+    transition-duration: 0.5s;
+    border: 0.5vw double #FFF8DE;
+    background-color: #A6AEBF;
+    border-radius: 5vw;
+    width: 5vw;
+    height: 5vw;
+    font-family: 'Roboto Slab', serif;
+    color: #FFF8DE;
+}
+
+#college-content {
+    display: none;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+#skills-holder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.skills-separator {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.skill {
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+#resume {
+    display: flex;
+    flex-direction: column;
+}
+
+#skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skill-bar {
+    width: 80%;
+    height: 1vw;
+    background-color: #C5D3E8;
+    border-radius: 10px;
+}
+
+.gauge {
+    height: 100%;
+    background-color: #A6AEBF;
+    border-radius: 10px;
+}
+
+#math-bar {
+    width: 90%;
+}
+
+#sql-bar {
+    width: 80%;
+}
+
+#ardu-bar {
+    width: 90%;
+}
+
+#js-bar {
+    width: 95%;
+}
+
+#react-bar {
+    width: 80%;
+}
+
+#assem-bar {
+    width: 85%;
+}
+
+#project-encapsulator {
+    width: 90vw;
+    border-style: double;
+    border-color: #A6AEBF;
+    border-width: 0.5vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 5vw;
+    border-radius: 0 10vw 0 10vw;
+    background-color: #FFF8DE;
+    box-shadow: 1vw 1vw 1vw rgb(100,100,100);
+    min-width: 700px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.project_shown {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vw;
+    margin-bottom: 5vw;
+}
+
+.project-container{
+    background-color: #fff;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0.5vw 0.5vw 0.5vw rgba(0,0,0,0.2);
+    height: 30vw;
+    overflow: hidden;
+}
+
+.project-container img{
+    border-radius: 10%;
+    height: 70%;
+}
+
+.project-desc {
+    background-color: #FFF;
+    z-index: 1;
+    width: 100%;
 }
